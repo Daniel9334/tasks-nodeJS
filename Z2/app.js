@@ -1,5 +1,5 @@
 //ZAD2
-//moduł colors
+//moduł colors  npm install colors@1.3.2
 //node app.js "Tekst w kolorach tęczy"
 
 const colors = require('colors');

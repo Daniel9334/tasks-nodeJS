@@ -1,5 +1,5 @@
 // moduł axios
-// wywołanie node app.js octocat true (dopisek true wyświetli liczbę followersów)
+// wywołanie node app.js octocat true (dopisek true wyświetli liczbę followersów) 
 
 const { getUserInfo, getUserRepositories } = require('./github');
 const { getWeather } = require('./weather');
@@ -10,7 +10,7 @@ const { getWeather } = require('./weather');
 (async () => {
     try {
         const username = process.argv[2];
-        const showFollowers = process.argv[3] === 'true';
+        const showFollowers = process.argv[3] === 'true';  
 
         if (!username) {
             console.log('Podaj nazwę użytkownika');

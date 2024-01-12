@@ -40,6 +40,12 @@ yargs.command({
   },
 });
 
+// Informacja o parametrach wywołania
+if (process.argv.length <= 2) {
+  console.log('Użyj parametru: node app.js <parametr>');
+  console.log('Dostępne parametry: dodaj --opis "tekst"; lista');
+}
+
 // Parsowanie argumentów wiersza poleceń
 yargs.parse();
 
